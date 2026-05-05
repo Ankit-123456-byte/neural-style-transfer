@@ -1,0 +1,15 @@
+content_dir: content_data
+style_dir: style_data
+vgg: vgg_normalised.pth
+experiment: experiment1
+image_size: 256
+batch_size: 4
+epochs: 20
+lr: 0.0001
+content_weight: 1.0
+style_weight: 10.0
+alpha: 1.0
+save_every: 5
+resume: None
+augment: True
+mode: adain

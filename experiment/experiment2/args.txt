@@ -1,0 +1,4 @@
+content_dir: /home/ubuntu/Desktop/NST_Code/content_data
+style_dir: /home/ubuntu/Desktop/NST_Code/style_data
+vgg: /home/ubuntu/Desktop/NST_Code/vgg_normalised.pth
+experiment: experiment2
