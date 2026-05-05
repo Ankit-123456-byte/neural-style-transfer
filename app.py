@@ -355,11 +355,7 @@ footer    { display: none !important; }
 """
 
 def build_ui():
-    with gr.Blocks(
-        title="Neural Style Transfer",
-        theme=gr.themes.Soft(primary_hue="indigo"),
-        css=CSS,
-    ) as demo:
+    with gr.Blocks(title="Neural Style Transfer") as demo:
 
         gr.Markdown("# Neural Style Transfer", elem_id="title")
         gr.Markdown(
@@ -515,4 +511,6 @@ if __name__ == "__main__":
         server_port=int(os.getenv("PORT", 7860)),
         share=False,
         show_error=True,
+        theme=gr.themes.Soft(primary_hue="indigo"),
+        css=CSS,
     )
